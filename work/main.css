@@ -1,0 +1,281 @@
+* {
+    padding: 0px;
+    margin: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/*header*/
+.img-logo-header {
+    position: absolute;
+    width: 1920px;
+    height: 740px;
+}
+
+.txt-logo-header {
+    position: relative;
+    color: white;
+    font-size: 64px;
+    text-align: center;
+    margin: auto;
+    top: 210px;
+}
+
+.txt-logo-header2 {
+    position: relative;
+    color: white;
+    font-size: 18px;
+    text-align: center;
+    margin: auto;
+    top: 240px;
+}
+
+/*age-card-header*/
+.age-card-header {
+    background: rgb(255, 255, 255);
+    position: relative;
+    height: 250px;
+    width: 1100px;
+    top: 450px;
+    margin: auto;
+}
+.age-card1, .age-card2, .age-card3, .age-card4 {
+    display: inline-block;
+    text-align: center;
+}
+
+.number1 {
+    color: rgb(239, 87, 26);
+    font-size: 70px;
+    position: relative;
+    top: 50px;
+    left: 150px;
+}
+
+.number2 {
+    color: rgb(239, 87, 26);
+    font-size: 70px;
+    position: relative;
+    top: 50px;
+    left: 300px;
+}
+
+.number3 {
+    color: rgb(239, 87, 26);
+    font-size: 70px;
+    position: relative;
+    top: 50px;
+    left: 450px;
+}
+
+.number4 {
+    color: rgb(239, 87, 26);
+    font-size: 70px;
+    position: relative;
+    top: 50px;
+    left: 580px;
+}
+
+.age1 {
+    color: black;
+    font-size: 28px;
+    position: relative;
+    top: 60px;
+    left: 150px;
+}
+
+.age2 {
+    color: black;
+    font-size: 28px;
+    position: relative;
+    top: 60px;
+    left: 300px;
+}
+
+.age3 {
+    color: black;
+    font-size: 28px;
+    position: relative;
+    top: 60px;
+    left: 450px;
+}
+
+.age4 {
+    color: black;
+    font-size: 28px;
+    position: relative;
+    top: 60px;
+    left: 580px;
+}
+
+.idk1 {
+    color: rgb(145, 148, 150);
+    font-size: 18px;
+    position: relative;
+    top: 65px;
+    left: 150px;
+}
+
+.idk2 {
+    color: rgb(145, 148, 150);
+    font-size: 18px;
+    position: relative;
+    top: 65px; 
+    left: 300px;
+}
+
+.idk3 {
+    color: rgb(145, 148, 150);
+    font-size: 18px;
+    position: relative;
+    top: 65px;  
+    left: 450px;
+}
+
+.idk4 {
+    color: rgb(145, 148, 150);
+    font-size: 18px;
+    position: relative;
+    top: 65px;
+    left: 580px;
+}
+
+/*main*/
+.main-txt {
+    position: relative;
+    text-align: center;
+    color: rgb(33, 38, 38);
+    font-size: 36px;
+    top: 550px;
+}
+
+.img-gas1, .img-gas2, .img-gas3 {
+    display: inline-block;
+    position: relative;
+}
+
+.img-gas1 {
+    left: 420px;
+    top: 600px;
+    width: 350px;
+    height: 380px;
+
+}
+
+.img-gas2 {
+    left: 430px;
+    top: 600px;
+    width: 350px;
+    height: 380px;
+
+}
+
+.img-gas3 {
+    left: 440px;
+    top: 600px;
+    width: 350px;
+    height: 380px;
+
+}
+
+.line1 {
+    position: relative;
+    top: 1010px;
+    left: 420px;
+    height: 3px;
+    width: 100px;
+}
+
+.line2 {
+    position: relative;
+    top: 1005px;
+    left: 785px;
+    height: 3px;
+    width: 100px;
+}
+
+.line3 {
+    position: relative;
+    top: 1000px;
+    left: 1150px;
+    height: 3px;
+    width: 100px;
+}
+
+.txt1, .txt2, .txt3 {
+    display: inline-block;
+}
+
+.txt1 {
+    position: absolute;
+    font-size: 24px;
+    top: 1500px;
+    left: 415px;
+}
+
+.txt2 {
+    position: absolute;
+    font-size: 24px;
+    top: 1500px;
+    left: 785px;
+}
+
+.txt3 {
+    position: absolute;
+    font-size: 24px;
+    top: 1500px;
+    left: 1150px;
+}
+
+.lorem1 {
+    position: absolute;
+    font-size: 16px;
+    top: 1540px;
+    left: 415px;
+    width: 330px;
+    font-family: open sans-serif;
+    color: rgb(132, 129, 129);
+}
+
+.lorem2 {
+    position: absolute;
+    font-size: 16px;
+    top: 1540px;
+    left: 785px;
+    width: 330px;
+    font-family: open sans-serif;
+    color: rgb(132, 129, 129);
+}
+
+.lorem3 {
+    position: absolute;
+    font-size: 16px;
+    top: 1540px;
+    left: 1150px;
+    width: 330px;
+    font-family: open sans-serif;
+    color: rgb(132, 129, 129);
+}
+
+.nav-line {
+    position: absolute;
+    background: rgb(242, 116, 74);
+    top: 1750px;
+    width: 1920px;
+    height: 150px;
+}
+
+.txt4 {
+    position: absolute;
+    top: 50px;
+    left: 300px;
+    color: white;
+    font-size: 48px;
+}
+
+.txt5 {
+    position: absolute;
+    top: 120px;
+    left: 300px;
+    color: white;
+    font-size: 24px;
+}
