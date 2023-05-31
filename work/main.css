@@ -148,114 +148,83 @@
     top: 550px;
 }
 
-.img-gas1, .img-gas2, .img-gas3 {
+/*Слайдер*/
+.size {
+    width: 600px;
+    height: 400px;
+}
+
+.slider-description {
+    font-size: 24px;
+    position: absolute;
+    top: 420px;
+    text-align: center;
+    color: rgb(0, 0, 0);
+}
+
+.slider-txt {
+    font-size: 22px;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    right: 0px;
+    text-align: center;
+    color: #fff;
+    text-shadow: 1px 1px 2px #000; 
+}
+
+.sliderA {
+    width: 600px;
+    height: 650px;
+    border: 2px solid rgba(0, 0, 0, 0);
+    position: relative;
+    text-align: center;
+    top: 600px;
+    left: 650px;
+}
+
+.sliderA > input + label {
     display: inline-block;
+    width: 10px;
+    height: 10px;
+    border-radius: 8px;
+    background: rgba(161, 109, 65, 0.8);
+    border: 1px solid rgba(190, 190, 190, 0.8);
+    cursor: pointer;
+    z-index: 100;
     position: relative;
+    margin-right: 1px;
+    top: 58%;
+    transition: background 0.8s ease-out 0s;
 }
 
-.img-gas1 {
-    left: 420px;
-    top: 600px;
-    width: 350px;
-    height: 380px;
-
+.sliderA > input + label:hover {
+    background: rgba(250, 250, 250, 0.8);
 }
 
-.img-gas2 {
-    left: 430px;
-    top: 600px;
-    width: 350px;
-    height: 380px;
-
+.sliderA > input:checked + label {
+    background: rgba(220, 220, 220, 0.8);
 }
 
-.img-gas3 {
-    left: 440px;
-    top: 600px;
-    width: 350px;
-    height: 380px;
-
-}
-
-.line1 {
-    position: relative;
-    top: 1010px;
-    left: 420px;
-    height: 3px;
-    width: 100px;
-}
-
-.line2 {
-    position: relative;
-    top: 1005px;
-    left: 785px;
-    height: 3px;
-    width: 100px;
-}
-
-.line3 {
-    position: relative;
-    top: 1000px;
-    left: 1150px;
-    height: 3px;
-    width: 100px;
-}
-
-.txt1, .txt2, .txt3 {
-    display: inline-block;
-}
-
-.txt1 {
+.sliderA > div {
     position: absolute;
-    font-size: 24px;
-    top: 1500px;
-    left: 415px;
+    top: 0px;
+    left: 0px;
+    right: 0px;
+    bottom: 0px;
+    z-index: 0;
+    visibility: hidden;
+    opacity: 0;
+    transition: opacity 0.8s ease-out 0.1s, visibility 0.1s ease-out 0.9s;
 }
 
-.txt2 {
-    position: absolute;
-    font-size: 24px;
-    top: 1500px;
-    left: 785px;
+.sliderA > input:checked + label + div {
+    visibility: visible;
+    opacity: 1;
+    transition: opacity 0.8s ease-out 0.1s, visibility 0.1s ease-out 0s;
 }
 
-.txt3 {
-    position: absolute;
-    font-size: 24px;
-    top: 1500px;
-    left: 1150px;
-}
-
-.lorem1 {
-    position: absolute;
-    font-size: 16px;
-    top: 1540px;
-    left: 415px;
-    width: 330px;
-    font-family: open sans-serif;
-    color: rgb(132, 129, 129);
-}
-
-.lorem2 {
-    position: absolute;
-    font-size: 16px;
-    top: 1540px;
-    left: 785px;
-    width: 330px;
-    font-family: open sans-serif;
-    color: rgb(132, 129, 129);
-}
-
-.lorem3 {
-    position: absolute;
-    font-size: 16px;
-    top: 1540px;
-    left: 1150px;
-    width: 330px;
-    font-family: open sans-serif;
-    color: rgb(132, 129, 129);
-}
-
+/*секция 2*/
 .nav-line {
     position: absolute;
     background: rgb(242, 116, 74);
@@ -278,4 +247,14 @@
     left: 300px;
     color: white;
     font-size: 24px;
+}
+
+/*Род занятий*/
+.work {
+    position: absolute;
+    font-size: 36px;
+    text-align: center;
+    right: 0px;
+    left: 0px;
+    top: 2100px; 
 }
